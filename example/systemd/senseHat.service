@@ -1,0 +1,17 @@
+[Unit]
+Description=Sense Hat Application
+
+[Service]
+Type=simple
+
+# change it
+ExecStart=/home/cid/Desktop/sense/src/index.py
+WorkingDirectory=/home/cid/Desktop/sense
+User=cid
+# ====
+
+Restart=always
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
