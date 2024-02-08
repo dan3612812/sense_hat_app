@@ -4,7 +4,7 @@ Run your custom scripts by the joystick to choose which one.And show the informa
 ## How to run
 1. install python3
 2. install sense hat library
-3. create `entry/` folder reference [Use example entry](#1-use-example-entry`)
+3. create `entry/` folder reference [Use example entry](#1-use-example-entry)
 4. run it `python src/index.py`
 
 ## Operation method
@@ -33,7 +33,7 @@ The default color:
 | white  | normal file            |
 | purple | result of execute file |
 
-## Custom your Entry
+## Entry folder
 I show you two methods create your tree of scripts.The root folder of scripts named `entry`.
 
 ### 1. Use example Entry
